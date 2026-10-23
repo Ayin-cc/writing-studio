@@ -1,0 +1,19 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 本地草稿与导出
+drafts/
+outputs/
+*.docx
+*.pdf
+*.mp4
+*.mov
+
+# 导出的压缩包
+dist/
+
+# screenwriting 引文：不随仓库分发，用 scripts/fetch-references.* 下载
+references/library/screenwriting/**/reference*.md
